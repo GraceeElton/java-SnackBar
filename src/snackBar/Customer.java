@@ -38,6 +38,8 @@ public class Customer
 	{
 		return name;
 	}
+
+	
 	// adding stuff or charging wallet 
 
 	public void addMoney(double added)

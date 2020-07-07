@@ -32,7 +32,7 @@ public class Main
 		 System.out.println("*** data!!!");
 
 		 //Customer 1 (Jane) buys 3 of snack 4 (Soda).
- 			// Print Customer 1 (Jane) Cash on hand.
+ 			// Print Customer 1 (Jane) Cash on hand.v bxd
  			// Print quantity of snack 4 (Soda).
 
 		 c1.takeMoney(s4.getCost() * 3 );

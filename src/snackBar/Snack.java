@@ -3,6 +3,10 @@ package snackBar;
 
 public class Snack 
 {
+
+    // create feilds - make sure the String is cap.
+
+    //thing for random id
 	private static int maxId = 0 ;
 	private int id;
 
@@ -11,6 +15,9 @@ public class Snack
 	private double cost;
 	private int vendingId;
 
+
+    // create constuctor 
+        // with all of the feilds as it paramaters 
 
 	public Snack(String name, int quantity, double cost, int vendingId)
 	{
@@ -23,6 +30,8 @@ public class Snack
 	}
 
 	// getters 
+
+    // You do not have to do a setter for the id.
 
 	public int getId()
     {
@@ -43,9 +52,10 @@ public class Snack
     	return vendingId;
     }
 
-
-// added stuff for quantity 
-    public int getQuantity(){
+ 
+    // added stuff for quantity 
+    
+    public int getQuantity(){   
     	return quantity;
     }
 
